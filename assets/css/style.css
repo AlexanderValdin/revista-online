@@ -8,6 +8,15 @@ body {
 	color: #000;
 	font-family: 'Roboto', sans-serif;
 }
+@media screen and (max-width: 768px){
+	.container {
+		grid-template-areas: "nav nav nav nav"
+						 "content content content content"
+						 "aside aside aside aside"
+						 "newsletter newsletter newsletter newsletter"
+						 "footer footer footer footer";
+	}
+}
 
 .container {
 	width: 90%;
